@@ -1,0 +1,14 @@
+{
+    "name": "eslint-config-elm",
+    "version": "1.0.0",
+    "description": "ESLint Configuration for Native Elm Code.",
+    "main": "index.js",
+    "scripts": {},
+    "repository": "git+https://github.com/panosoft/eslint-config-elm.git",
+    "keywords": [
+        "eslint",
+        "eslintconfig"
+    ],
+    "author": "Alexandre Gigliotti <alex@panosoft.com>",
+    "license": "Unlicense"
+}
