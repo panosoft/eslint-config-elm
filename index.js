@@ -23,6 +23,7 @@ module.exports = {
         "A8": false,
         "A9": false,
         // elm-lang/core
+        // native modules
         "_elm_lang$core$Native_Array": false,
         "_elm_lang$core$Native_Basics": false,
         "_elm_lang$core$Native_Bitwise": false,
@@ -37,12 +38,18 @@ module.exports = {
         "_elm_lang$core$Native_String": false,
         "_elm_lang$core$Native_Time": false,
         "_elm_lang$core$Native_Utils": false,
+        // modules
+        "_elm_lang$core$Result$Ok": false,
+        "_elm_lang$core$Result$Err": false,
+        "_elm_lang$core$Maybe$Just": false,
+        "_elm_lang$core$Maybe$Nothing": false
     },
     "extends": "eslint:recommended",
     "rules": {
         // Conventions
         "default-case" : "error",
         "eqeqeq" : "error",
+        "no-console": ["error", {allow: ["warn", "error"]}],
         "no-else-return" : "error",
         "no-lone-blocks" : "error",
         "no-shadow": "error",
