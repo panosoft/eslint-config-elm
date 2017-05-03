@@ -52,7 +52,6 @@ module.exports = {
         "no-console": ["error", {allow: ["warn", "error"]}],
         "no-else-return" : "error",
         "no-lone-blocks" : "error",
-        "no-shadow": "error",
         "no-shadow-restricted-names": "error",
         "no-unexpected-multiline" : "error",
         "no-unused-vars": "off",
